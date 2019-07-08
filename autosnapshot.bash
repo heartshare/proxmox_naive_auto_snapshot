@@ -4,7 +4,7 @@ showHelp(){
   echo "Automatic snapshotting for Proxmox PVE"
   echo
   echo "  -p, --purge-date      Removes automatic snapshots when whey are older than this."
-  echo "                        Uses `date --date` formatting. Eg. '10 days ago'" 
+  echo "                        Uses 'date --date' formatting. Eg. '10 days ago'" 
   exit 0 
 }
 
