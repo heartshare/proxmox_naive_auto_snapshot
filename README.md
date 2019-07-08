@@ -21,9 +21,11 @@ I needed a simple, easy to understand / audit solution for making daily snapshot
 Make crontab entry with `crontab -e`
 
 ```
+
 #Make snapshot every day
 2 3 * * * /root/cronSnap
-``
+
+```
 
 ```
 #!/bin/bash
@@ -32,5 +34,4 @@ cd /root/
 
 # Take snapshot and remove old automatic snapshots that is older than 7 days
 ./autosnapshot -p "7 days ago" 102 103
-
 ```
