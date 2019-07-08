@@ -23,10 +23,12 @@ Make crontab entry with `crontab -e`
 ```
 
 #Make snapshot every day
-2 3 * * * /root/cronSnap
+2 3 * * * /root/dailySnapshot
 
 ```
 
+
+/root/dailySnapshot
 ```
 #!/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
