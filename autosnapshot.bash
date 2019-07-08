@@ -1,5 +1,4 @@
 #!/bin/bash
-set -xe
 showHelp(){
   echo "Usage: autosnapshot OPTION VM_ID..."
   echo "Automatic snapshotting for Proxmox PVE"
